@@ -1,6 +1,6 @@
 ## Financial Performance Dashboard — Power BI
 
-> An interactive, month-level financial dashboard built in Power BI for **The Finance Group**, enabling real-time monitoring of revenue, profitability, cash flow, and operational KPIs across regions and product categories.
+An interactive, month-level financial dashboard built in Power BI for **The Finance Group**, enabling real-time monitoring of revenue, profitability, cash flow, and operational KPIs across regions and product categories.
 
 ---
 
