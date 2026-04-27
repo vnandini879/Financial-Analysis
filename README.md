@@ -247,7 +247,6 @@ Net Cash = SUM(FinData[Cash Inflows]) - SUM(FinData[Cash Outflows])
 | 5 | **Clustered Bar** | Receivables Aging | Monitor collection efficiency & risk |
 | 6 | **Slicers** | Region, Product, Date | Enable granular data exploration |
 
-!Dashboard(C:\Users\RAJ NANDINI\Downloads\internship projects/financial dashboard.png)
 ---
 
 ## How to Use
