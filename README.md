@@ -232,7 +232,7 @@ Net Cash = SUM(FinData[Cash Inflows]) - SUM(FinData[Cash Outflows])
 | **Success/Positive** | `#2ECC71` |
 | **Warning/Negative** | `#E74C3C` |
 
-![image alt](https://github.com/vnandini879/Financial-Analysis/blob/d79fe6e2fba8a9f56bae1e85a427a5da9102ab94/financial%20dashboard.png)
+![image alt](https://github.com/vnandini879/Financial-Analysis/blob/51650d92cac43518d5f9d13632c7677f4026610f/Financial%20Analysis.png)
 
 ---
 
