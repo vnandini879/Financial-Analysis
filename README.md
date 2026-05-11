@@ -99,14 +99,6 @@ DIVIDE(
 Net Cash = SUM(FinData[Cash Inflows]) - SUM(FinData[Cash Outflows])
 ```
 
-
-## Dashboard Design
-
-
-![image alt](https://github.com/vnandini879/Financial-Analysis/blob/533366ffd1ad792a911f5df34bfdbdeae163b3a4/Finance%20Analysis%20Dashboard.png)
-
----
-
 ## Dashboard Visuals
 
 | # | Visual | Fields Used | Purpose |
@@ -117,6 +109,14 @@ Net Cash = SUM(FinData[Cash Inflows]) - SUM(FinData[Cash Outflows])
 | 4 | **Bar Chart** | Product Performance | Identify top-grossing categories |
 | 5 | **Clustered Bar** | Receivables Aging | Monitor collection efficiency & risk |
 | 6 | **Slicers** | Region, Product, Date | Enable granular data exploration |
+
+---
+
+
+## Dashboard Design
+
+
+![image alt](https://github.com/vnandini879/Financial-Analysis/blob/533366ffd1ad792a911f5df34bfdbdeae163b3a4/Finance%20Analysis%20Dashboard.png)
 
 ---
 
@@ -154,3 +154,9 @@ Net Cash = SUM(FinData[Cash Inflows]) - SUM(FinData[Cash Outflows])
 * [x] **Technical Documentation**
 * [x] **README Guide**
 ---
+
+### Author
+**Nandini Verma**
+*Data and Business Analyst*
+*[GitHub](https://github.com/vnandini879)*
+*[LinkedIn](https://www.linkedin.com/in/Analyst-kashishagrawal/)*
