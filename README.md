@@ -71,32 +71,29 @@ _Measures  (Dedicated DAX measures table)
 
 ### Total Revenue
 ```dax
-Total Revenue = SUM(FinData[Revenue])
+Total Revenue = SUM(Data[Revenue])
 ```
 
 ### Gross Margin %
 ```dax
-Gross Margin % = 
-DIVIDE(
-    SUM(FinData[Gross Profit]), 
-    SUM(FinData[Revenue]), 
-    0
-)
+Gross Margin % =  DIVIDE(SUM(Data[Gross Profit]), SUM(Data[Revenue])) * 100
 ```
 
 ### EBITDA %
 ```dax
-EBITDA % = 
-DIVIDE(
-    SUM(FinData[EBITDA]), 
-    SUM(FinData[Revenue]), 
-    0
-)
+EBITDA % = DIVIDE(SUM(Data[EBITDA]), SUM(Data[Revenue])) * 100
 ```
 
 ### Net Cash
 ```dax
-Net Cash = SUM(FinData[Cash Inflows]) - SUM(FinData[Cash Outflows])
+Net Cash = SUM(Data[Cash Inflows]) - SUM(Data[Cash Outflows])
+```
+
+### Budget Variance	and Budget Variance %
+```dax
+Budget Variance = SUM(Data[Revenue]) - SUM(Data[Revenue Budget])
+
+Budget Variance %	DIVIDE(SUM(Data[Revenue]) - SUM(Data[Revenue Budget]), SUM(Data[Revenue Budget])) * 100
 ```
 
 ## Dashboard Visuals
